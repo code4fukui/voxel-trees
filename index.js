@@ -1,4 +1,4 @@
-module.exports = function (opts) {
+export default function (opts) {
     if (!opts) opts = {};
     if (opts.bark === undefined) opts.bark = 1;
     if (opts.leaves === undefined) opts.leaves = 2;
